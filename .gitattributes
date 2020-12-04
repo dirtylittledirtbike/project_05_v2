@@ -1,0 +1,4 @@
+tensor_data/depression/depression_vecs.tsv filter=lfs diff=lfs merge=lfs -text
+tensor_data/depression/depression_meta.tsv filter=lfs diff=lfs merge=lfs -text
+tensor_data/anxiety/anxiety_meta.tsv filter=lfs diff=lfs merge=lfs -text
+tensor_data/anxiety/anxiety_vecs.tsv filter=lfs diff=lfs merge=lfs -text
