@@ -3,7 +3,7 @@
     {
       "tensorName": "r/depression word2vec",
       "tensorShape": [
-        18189,
+        18188,
         400
       ],
       "tensorPath": "https://media.githubusercontent.com/media/dirtylittledirtbike/project_05_v2/main/tensor_data/depression/depression_vecs.tsv",
