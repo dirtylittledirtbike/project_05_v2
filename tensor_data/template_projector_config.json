@@ -4,19 +4,19 @@
       "tensorName": "r/depression word2vec",
       "tensorShape": [
         40007,
-        500
+        300
       ],
-      "tensorPath": "https://media.githubusercontent.com/media/dirtylittledirtbike/project_05_v2/main/tensor_data/depression/depression2_vecs.tsv",
-      "metadataPath": "https://media.githubusercontent.com/media/dirtylittledirtbike/project_05_v2/main/tensor_data/depression/depression2_meta.tsv"
+      "tensorPath": "https://media.githubusercontent.com/media/dirtylittledirtbike/project_05_v2/main/tensor_data/depression/r_depression_vecs.tsv",
+      "metadataPath": "https://media.githubusercontent.com/media/dirtylittledirtbike/project_05_v2/main/tensor_data/depression/r_depression_meta.tsv"
     },
     {
         "tensorName": "r/anxiety word2vec",
         "tensorShape": [
             25995,
-            400
+            300
         ],
-        "tensorPath": "https://media.githubusercontent.com/media/dirtylittledirtbike/project_05_v2/main/tensor_data/anxiety/anxiety2_vecs.tsv",
-        "metadataPath": "https://media.githubusercontent.com/media/dirtylittledirtbike/project_05_v2/main/tensor_data/anxiety/anxiety2_meta.tsv"
+        "tensorPath": "https://media.githubusercontent.com/media/dirtylittledirtbike/project_05_v2/main/tensor_data/anxiety/r_anxiety_vecs.tsv",
+        "metadataPath": "https://media.githubusercontent.com/media/dirtylittledirtbike/project_05_v2/main/tensor_data/anxiety/r_anxiety_meta.tsv"
     }
   ]
 }

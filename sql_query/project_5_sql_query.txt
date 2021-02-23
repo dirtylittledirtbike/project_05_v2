@@ -1,3 +1,10 @@
+
+SELECT * FROM (
+SELECT *,
+    ROW_NUMBER() OVER (
+        PARTITION BY link_id
+        ORDER BY created_utc DESC
+    ) rnk from (
 select *
 from `fh-bigquery.reddit_posts.2019_08`
 where subreddit = 'Anxiety' and (selftext != '[removed]') and (selftext != '[deleted]')
@@ -177,3 +184,6 @@ union all
 select *
 from `fh-bigquery.reddit_posts.2015_12`
 where subreddit = 'Anxiety' and (selftext != '[removed]') and (selftext != '[deleted]')
+) sub
+where subreddit = 'Anxiety' and (selftext != '[removed]') and (selftext != '[deleted]')) sub2
+where rnk < 2
